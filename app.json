@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "MyFoodDiary",
+    "description": "This project is a diary of favorite food/recipes",
+    "slug": "MyFoodDiary",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app uses the photo library to show pictures of favorited food"
+      },
+    },
+
+  }
+}
